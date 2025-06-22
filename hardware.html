@@ -1,37 +1,63 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Hardware - Brasil Gaming Shop</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <title>Hardware - Brasil Gaming Shop</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #f63e3e;
+        }
+        .produtos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .produto {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 250px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.6);
+            text-align: center;
+        }
+        .produto img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .produto h3 {
+            padding: 15px;
+            font-size: 1.1rem;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <div class="logo">🎮 Brasil Gaming Shop</div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="mais-vendidos.html">Mais Vendidos</a></li>
-        <li><a href="jogos.html">Jogos</a></li>
-        <li><a href="hardware.html">Hardware</a></li>
-        <li><a href="giftcards.html">Gift Card</a></li>
-        <li><a href="comunidade.html">Comunidade</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section>
     <h1>Hardware</h1>
-    <ul>
-      <li><strong>AMD Ryzen 5 5600G</strong> – R$ 899,00</li>
-      <li><strong>GeForce RTX 3060</strong> – R$ 1.899,00</li>
-      <li><strong>SSD Kingston 480GB</strong> – R$ 249,00</li>
-      <li><strong>Memória RAM 16GB DDR4</strong> – R$ 319,00</li>
-      <li><strong>Fonte 600W 80 Plus</strong> – R$ 279,00</li>
-    </ul>
-  </section>
-  <footer>
-    <p>&copy; 2025 Brasil Gaming Shop</p>
-  </footer>
+    <div class="produtos">
+        
+        <div class="produto">
+            <img src="https://cdn.pixabay.com/photo/2020/07/02/17/52/graphics-card-5365159_1280.jpg" alt="Placa de Vídeo RTX 3060">
+            <h3>Placa de Vídeo RTX 3060</h3>
+        </div>
+        <div class="produto">
+            <img src="https://cdn.pixabay.com/photo/2020/06/02/16/42/processor-5250951_1280.jpg" alt="Processador Ryzen 5 5600X">
+            <h3>Processador Ryzen 5 5600X</h3>
+        </div>
+        <div class="produto">
+            <img src="https://cdn.pixabay.com/photo/2015/06/24/15/45/memory-820571_1280.jpg" alt="Memória RAM Corsair Vengeance 16GB">
+            <h3>Memória RAM Corsair Vengeance 16GB</h3>
+        </div>
+    </div>
 </body>
 </html>

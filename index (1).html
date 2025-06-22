@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brasil Gaming Shop - Home</title>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: #121212; color: #eee; min-height: 100vh; line-height: 1.6;
+    }
+    header {
+      position: fixed; top: 0; width: 100%; background-color: #1f1f1f;
+      padding: 15px 30px; display: flex; justify-content: space-between; align-items: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.8); z-index: 1000;
+    }
+    header h1 {
+      font-size: 1.8rem; color: #f63e3e; cursor: pointer;
+    }
+    nav a {
+      color: #eee; text-decoration: none; margin-left: 25px; font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #f63e3e;
+    }
+    main {
+      padding: 100px 20px 40px; max-width: 1100px; margin: 0 auto; text-align: center;
+    }
+    h2 {
+      font-size: 2rem; margin-bottom: 20px; color: #f63e3e; text-transform: uppercase; letter-spacing: 2px;
+    }
+    p {
+      font-size: 1.1rem; color: #ccc; max-width: 700px; margin: 0 auto 30px;
+    }
+    .highlight {
+      color: #f63e3e; font-weight: 700;
+    }
+    .banner {
+      width: 100%; max-height: 350px; object-fit: cover; border-radius: 12px; box-shadow: 0 0 20px rgba(246,62,62,0.4);
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 onclick="location.href='index.html'">Brasil Gaming Shop</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="mais-vendidos.html">Mais Vendidos</a>
+      <a href="jogos.html">Jogos</a>
+      <a href="hardware.html">Hardware</a>
+      <a href="giftcard.html">Gift Card</a>
+      <a href="comunidade.html">Comunidade</a>
+    </nav>
+  </header>
+
+  <main>
+    <img src="https://cdn.pixabay.com/photo/2015/12/21/14/01/game-1106006_1280.jpg" alt="Banner Brasil Gaming Shop" class="banner" />
+    <h2>Bem-vindo ao Brasil Gaming Shop</h2>
+    <p>Seu destino definitivo para <span class="highlight">hardware gamer, jogos e gift cards</span> com qualidade e preços competitivos.</p>
+    <p>Explore nossa variedade de produtos e faça parte da comunidade que vive e respira games. Aproveite uma experiência simples, moderna e segura.</p>
+  </main>
+</body>
+</html>

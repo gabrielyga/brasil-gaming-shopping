@@ -1,35 +1,63 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mais Vendidos - Brasil Gaming Shop</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <title>Mais Vendidos - Brasil Gaming Shop</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #f63e3e;
+        }
+        .produtos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .produto {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 250px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.6);
+            text-align: center;
+        }
+        .produto img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .produto h3 {
+            padding: 15px;
+            font-size: 1.1rem;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <div class="logo">🎮 Brasil Gaming Shop</div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="mais-vendidos.html">Mais Vendidos</a></li>
-        <li><a href="jogos.html">Jogos</a></li>
-        <li><a href="hardware.html">Hardware</a></li>
-        <li><a href="giftcards.html">Gift Card</a></li>
-        <li><a href="comunidade.html">Comunidade</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section>
     <h1>Mais Vendidos</h1>
-    <ul>
-      <li>🎮 GTA V – R$ 79,90</li>
-      <li>🖥️ RTX 3060 – R$ 1.899,00</li>
-      <li>💳 Gift Card Steam R$50 – R$ 50,00</li>
-    </ul>
-  </section>
-  <footer>
-    <p>&copy; 2025 Brasil Gaming Shop</p>
-  </footer>
+    <div class="produtos">
+        
+        <div class="produto">
+            <img src="https://cdn.pixabay.com/photo/2018/03/01/14/40/technology-3190199_1280.jpg" alt="Teclado Mecânico Redragon Kumara">
+            <h3>Teclado Mecânico Redragon Kumara</h3>
+        </div>
+        <div class="produto">
+            <img src="https://cdn.pixabay.com/photo/2020/05/21/15/51/headphones-5200700_1280.jpg" alt="Headset Gamer HyperX Cloud II">
+            <h3>Headset Gamer HyperX Cloud II</h3>
+        </div>
+        <div class="produto">
+            <img src="https://cdn.pixabay.com/photo/2021/02/28/14/25/xbox-6056110_1280.jpg" alt="Controle Xbox Series X">
+            <h3>Controle Xbox Series X</h3>
+        </div>
+    </div>
 </body>
 </html>
